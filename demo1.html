@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>WEEK 11| CUSTOM VIDEO CONTROLS USING JAVA AND CSS</title>
+
+	<link rel="stylesheet" href="demo1.css">
+</head>
+<body>
+	<div id="video-container">
+		<!-- Video -->
+        <video id="video" width="640" height="365" poster="tinaPoster.jpg">
+		  <source src="tina.webm" type="video/webm">
+		  <source src="tina.ogv" type="video/ogv">
+		  <source src="tina.mp4" type="video/mp4">
+		  <p>
+		    
+		    <a href="tina.mp4">Download</a> the video instead.
+		  </p>
+		</video>
+		<!-- Video Controls -->
+		<div id="video-controls">
+			<button type="button" id="play-pause" class="play">Play</button>
+			<input type="range" id="seek-bar" value="0">
+			<button type="button" id="mute">Mute</button>
+			<input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+			<button type="button" id="full-screen">Full-Screen</button>
+		</div>
+	</div>
+<!-- Linking our external javascript file -->
+	<script src="demo1.js"></script>
+</body>
+</html>
