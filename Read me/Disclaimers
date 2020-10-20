@@ -1,0 +1,8 @@
+This was created for my HTML 5 class as an example/demo.
+I used a bobs burgers clip (my favorite show in the world)
+We use multiple video sources: .mp4 .ogv and .webm
+We link a stylesheet .css file and a .js file to create custom video controls.
+In the end you should have a play,pause, mute, unmute,full screen, go back to normal screen
+button and there should also be a progress bar to see where you are at in the video. 
+
+When editing you can use any video file, poster image, css, ETC. This is just a general idea/jist 
